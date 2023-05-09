@@ -37,7 +37,7 @@ const cachedPrices = {
 }
 const candleByPriceId = {}
 // both Arbitrum and Avalanche don't have older prices
-const PRICE_START_TIMESTAMP = Math.floor(+new Date(2022, 0, 6) / 1000) // 6th of January 2022
+const PRICE_START_TIMESTAMP = Math.floor(+new Date(2023, 4, 9) / 1000) // 6th of January 2022
 function putPricesIntoCache(prices, chainId, append) {
   if (append === undefined) {
     throw new Error('Explicit append is required')
